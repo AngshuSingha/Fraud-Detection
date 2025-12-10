@@ -48,7 +48,7 @@ def predict():
 
     final_features = np.array([[
         step, amount, old_org, new_org, old_dest, new_dest,
-        isFraud, merchant_sender, merchant_receiver,
+        merchant_sender, merchant_receiver,
         type_CASH_OUT, type_DEBIT, type_PAYMENT, type_TRANSFER,
         org_diff, dest_diff, org_no_change, dest_no_change,
         amount_ratio, hour, day, is_transfer, is_cashout
